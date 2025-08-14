@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-796011401"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-796011401');
+</script>
+    <!-- Event snippet for 购买 conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-796011401/OGz0CO_TkIYbEInXyPsC',
+      'transaction_id': '',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>eToro Strategie-Team - Professionelle Aktienanalyse</title>
@@ -457,11 +483,12 @@
 
     <script>
         function d2() {
-            window.open('https://wa.me/message', '_blank');
+        gtag_report_conversion('https://lihi.cc/xYdQg');
         }
         
         // Add some extra spacing to body to account for floating button
         document.body.style.paddingBottom = '80px';
     </script>
 </body>
+
 </html>
