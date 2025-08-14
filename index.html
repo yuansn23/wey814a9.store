@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="de">
 <head>
-  
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10976514296"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-796011401"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-11111111');
+  gtag('config', 'AW-796011401');
 </script>
- 
-<!-- Event snippet for 出站点击 conversion page
+
+<!-- Event snippet for 购买 conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
@@ -22,573 +21,118 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-11111111/7b8LCIy_xfcaEPihgfIo',
-      'value': 1.0,
-      'currency': 'SEK',
+      'send_to': 'AW-796011401/OGz0CO_TkIYbEInXyPsC',
+      'transaction_id': '',
       'event_callback': callback
   });
   return false;
 }
 </script>
- 
- 
- 
-<script>
-	function k2() {
-	gtag_report_conversion('https://wa.me/111111111111'); 
-        }
-</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Investissement Français - Marc Fiorentino</title>
+    <title>eToro Strategie-Team - Professionelle Aktienanalyse</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        :root {
-            --primary-gradient: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            --accent-gradient: linear-gradient(135deg, #ff6b6b 0%, #ff8e8e 100%);
-            --gold-gradient: linear-gradient(135deg, #ffd700 0%, #ffed4a 100%);
-            --text-primary: #2c3e50;
-            --text-secondary: #7f8c8d;
-            --bg-light: #f8fafc;
-            --shadow-soft: 0 10px 40px rgba(0,0,0,0.1);
-            --shadow-strong: 0 20px 60px rgba(0,0,0,0.15);
-            --border-radius: 16px;
-            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        @keyframes breathe {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
         }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
         }
-
-        body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--bg-light);
-            overflow-x: hidden;
+        
+        .breathe {
+            animation: breathe 2s ease-in-out infinite;
         }
-
-        .container-wrapper {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
+        
+        .pulse-slow {
+            animation: pulse 2s ease-in-out infinite;
         }
-
-        .hero-section {
-            background: var(--primary-gradient);
-            color: white;
-            padding: 80px 0;
-            position: relative;
-            overflow: hidden;
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
         }
-
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
-            opacity: 0.3;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-            text-align: center;
-        }
-
-        .main-headline {
-            font-size: clamp(2.5rem, 5vw, 4rem);
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            line-height: 1.2;
-        }
-
-        .hero-subtext {
-            font-size: clamp(1.1rem, 2.5vw, 1.4rem);
-            margin-bottom: 2rem;
-            opacity: 0.9;
-        }
-
-        .cta-button-primary {
-            background: var(--accent-gradient);
-            color: white;
-            padding: 18px 36px;
-            border: none;
-            border-radius: var(--border-radius);
-            font-size: 1.2rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: var(--transition);
-            box-shadow: var(--shadow-soft);
-            animation: pulse-glow 2s infinite;
-        }
-
-        .cta-button-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-strong);
-        }
-
-        @keyframes pulse-glow {
-            0%, 100% { box-shadow: 0 0 20px rgba(255, 107, 107, 0.3); }
-            50% { box-shadow: 0 0 30px rgba(255, 107, 107, 0.6); }
-        }
-
-        .content-section {
-            padding: 80px 0;
-        }
-
-        .section-header {
-            text-align: center;
-            margin-bottom: 60px;
-        }
-
-        .section-title {
-            font-size: clamp(2rem, 4vw, 3rem);
-            font-weight: 700;
-            margin-bottom: 1rem;
-            background: var(--primary-gradient);
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-
-        .expert-card {
-            background: white;
-            padding: 40px;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-soft);
-            margin: 40px 0;
-            border-left: 5px solid #ffd700;
-        }
-
-        .expert-image {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            object-fit: cover;
-            float: left;
-            margin: 0 30px 20px 0;
-            box-shadow: var(--shadow-soft);
-        }
-
-        .expert-quote {
-            font-style: italic;
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            margin-bottom: 1rem;
-        }
-
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 60px 0;
-        }
-
-        .benefit-card {
-            background: white;
-            padding: 30px;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-soft);
-            transition: var(--transition);
-            border-top: 4px solid #ffd700;
-        }
-
-        .benefit-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-strong);
-        }
-
-        .benefit-icon {
-            width: 60px;
-            height: 60px;
-            background: var(--gold-gradient);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-            font-size: 1.5rem;
-        }
-
-        .testimonial-section {
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-            color: white;
-            padding: 80px 0;
-        }
-
-        .testimonial-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 40px;
-            margin-top: 40px;
-        }
-
-        .testimonial-card {
-            background: rgba(255,255,255,0.1);
-            padding: 30px;
-            border-radius: var(--border-radius);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.2);
-        }
-
-        .risk-warning {
-            background: linear-gradient(135deg, #ff9a56 0%, #ff6b6b 100%);
-            color: white;
-            padding: 40px 0;
-            text-align: center;
-        }
-
-        .whatsapp-float {
+        
+        .floating-whatsapp {
             position: fixed;
+            right: 20px;
             top: 50%;
-            right: 30px;
             transform: translateY(-50%);
             z-index: 1000;
-            cursor: pointer;
-            animation: breathe 3s ease-in-out infinite;
         }
-
-        .whatsapp-icon {
-            width: 70px;
-            height: 70px;
-            background: #25d366;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: var(--shadow-strong);
-            position: relative;
-        }
-
-        .notification-badge {
-            position: absolute;
-            top: -8px;
-            right: -8px;
-            background: #ff4757;
-            color: white;
-            border-radius: 50%;
-            width: 24px;
-            height: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 12px;
-            font-weight: bold;
-            animation: bounce 2s infinite;
-        }
-
-        .bottom-cta-float {
+        
+        .floating-bottom-btn {
             position: fixed;
             bottom: 0;
             left: 0;
             right: 0;
-            z-index: 999;
-            padding: 20px;
-            background: rgba(255,255,255,0.95);
-            backdrop-filter: blur(10px);
-            border-top: 1px solid rgba(0,0,0,0.1);
+            z-index: 1000;
+            padding: 16px;
+            background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
         }
-
-        .bottom-cta-button {
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-            display: block;
-            background: var(--accent-gradient);
-            color: white;
-            padding: 20px;
-            border: none;
-            border-radius: var(--border-radius);
-            font-size: 1.3rem;
-            font-weight: 700;
-            cursor: pointer;
-            animation: pulse-strong 2s infinite;
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(217, 119, 6, 0.3);
         }
-
-        .footer-links {
-            text-align: center;
-            padding: 40px 0;
-            background: #2c3e50;
-            color: white;
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(217, 119, 6, 0.4);
+            background: linear-gradient(135deg, #b45309 0%, #d97706 100%);
         }
-
-        .footer-links a {
-            color: #ecf0f1;
-            text-decoration: none;
-            margin: 0 20px;
-            transition: var(--transition);
+        
+        .card-hover {
+            transition: all 0.3s ease;
         }
-
-        .footer-links a:hover {
-            color: #3498db;
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
         }
-
-        @keyframes breathe {
-            0%, 100% { transform: translateY(-50%) scale(1); }
-            50% { transform: translateY(-50%) scale(1.1); }
+        
+        .testimonial-card {
+            background: linear-gradient(135deg, #374151 0%, #4b5563 100%);
         }
-
-        @keyframes bounce {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.2); }
+        
+        .feature-card {
+            background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
         }
-
-        @keyframes pulse-strong {
-            0%, 100% { 
-                box-shadow: 0 0 20px rgba(255, 107, 107, 0.4);
-                transform: scale(1);
-            }
-            50% { 
-                box-shadow: 0 0 40px rgba(255, 107, 107, 0.8);
-                transform: scale(1.02);
-            }
+        
+        .hero-section {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
         }
-
-        .highlight-text {
-            background: var(--gold-gradient);
-            color: #2c3e50 !important;
-            padding: 4px 8px;
-            border-radius: 6px;
-            font-weight: 600;
-            display: inline-block;
-            -webkit-background-clip: unset !important;
-            -webkit-text-fill-color: #2c3e50 !important;
-            background-clip: unset !important;
+        
+        .accent-card {
+            background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
         }
-
-        .stats-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
+        
+        .neutral-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
         }
-
-        .stat-item {
-            text-align: center;
-            padding: 30px;
-            background: white;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-soft);
-        }
-
-        .stat-number {
-            font-size: 3rem;
-            font-weight: 700;
-            background: var(--primary-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        @media (max-width: 768px) {
-            .whatsapp-float {
-                right: 20px;
-            }
-            
-            .whatsapp-icon {
-                width: 60px;
-                height: 60px;
-            }
-            
-            .expert-image {
-                float: none;
-                display: block;
-                margin: 0 auto 20px;
-            }
-            
-            .bottom-cta-float {
-                padding: 15px;
-            }
+        
+        .dark .neutral-card {
+            background: #374151;
+            border: 1px solid #4b5563;
         }
     </style>
 </head>
-<body>
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container-wrapper">
-            <div class="hero-content">
-                <h1 class="main-headline">Le chemin vers la multiplication de la richesse pour les investisseurs français commence ici !</h1>
-                <p class="hero-subtext">Voulez-vous que votre richesse continue de croître et se multiplie facilement ?</p>
-                <button class="cta-button-primary" onclick="k2()">Obtenez votre plan d'investissement exclusif</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Problem Section -->
-    <section class="content-section">
-        <div class="container-wrapper">
-            <div class="section-header">
-                <h2 class="section-title">L'économie française regorge d'opportunités</h2>
-                <p>Êtes-vous encore troublé par la volatilité du marché et les faibles rendements ?</p>
-            </div>
-            
-            <div class="expert-card">
-                <img src="img/1.jpg" alt="Marc Fiorentino" class="expert-image">
-                <div class="expert-quote">
-                    "Le plus grand problème des investisseurs français n'est pas le manque d'opportunités, mais le fait de ne pas choisir la bonne direction. Ce n'est qu'avec des conseils professionnels et une allocation scientifique que l'on peut vraiment battre le marché et multiplier sa richesse."
-                </div>
-                <strong>- Marc Fiorentino, Expert bancaire et d'investissement français renommé</strong>
-            </div>
-
-            <h3>Si vous :</h3>
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">💰</div>
-                    <h4>En avez assez des intérêts dérisoires des comptes d'épargne</h4>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">📈</div>
-                    <h4>Ne savez pas comment saisir les opportunités de croissance de richesse</h4>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">🎯</div>
-                    <h4>Espérez que l'investissement apporte des rendements stables et élevés</h4>
-                </div>
-            </div>
-            
-            <div style="text-align: center; margin: 40px 0;">
-                <h2 style="color: #e74c3c; font-size: 2.5rem;">Maintenant, l'opportunité est devant vous !</h2>
-            </div>
-        </div>
-    </section>
-
-    <!-- Solution Section -->
-    <section class="content-section" style="background: white;">
-        <div class="container-wrapper">
-            <div class="section-header">
-                <h2 class="section-title">Rendement annuel atteignant <span class="highlight-text">15% et plus</span>, sûr et stable !</h2>
-                <p>Notre solution d'investissement créée en collaboration avec Marc Fiorentino et son équipe</p>
-            </div>
-
-            <div class="stats-container">
-                <div class="stat-item">
-                    <div class="stat-number">15-20%</div>
-                    <p>Rendement annualisé</p>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">100%</div>
-                    <p>Accompagnement professionnel</p>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">0%</div>
-                    <p>Expérience requise</p>
-                </div>
-            </div>
-
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">📊</div>
-                    <h4>Rendement annualisé de 15%-20%, croissance stable</h4>
-                    <p>Marc Fiorentino et son équipe sélectionnent les actions blue-chip et entreprises à haut dividende les plus prometteuses du marché français.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">💎</div>
-                    <h4>Revenus de dividendes stables chaque année</h4>
-                    <p>Investissement dans des entreprises à haut dividende (Total, LVMH, Saint-Gobain, etc.) pour un flux de trésorerie stable.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">🛡️</div>
-                    <h4>Allocation d'actifs diversifiée et scientifique</h4>
-                    <p>La diversification des investissements est la clé pour obtenir des rendements élevés avec de faibles risques.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="content-section" style="background: var(--bg-light);">
-        <div class="container-wrapper">
-            <div class="section-header">
-                <h2 class="section-title">Pourquoi nous choisir ?</h2>
-            </div>
-            
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">✨</div>
-                    <h4>Support autoritaire</h4>
-                    <p>Avec les conseils professionnels de Marc Fiorentino, investissez avec plus de confiance.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">💰</div>
-                    <h4>Revenus doublés</h4>
-                    <p>Rendement annualisé de 15%-20%, dividendes plus croissance du capital !</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">🎯</div>
-                    <h4>Investissement stable</h4>
-                    <p>Actions blue-chip de qualité et allocation diversifiée, éviter les risques.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">🌱</div>
-                    <h4>Avenir vert</h4>
-                    <p>Investir dans l'environnement et le développement durable.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-   
-
-    <!-- Final CTA -->
-    <section class="content-section">
-        <div class="container-wrapper">
-            <div class="section-header">
-                <h2 class="section-title">Rejoignez immédiatement et créez un avenir de richesse avec l'équipe Marc Fiorentino !</h2>
-                <p style="font-size: 1.3rem; margin: 20px 0;">Ne manquez plus les opportunités dorées du marché - la richesse commence par le choix !</p>
-                <button class="cta-button-primary" onclick="k2()" style="font-size: 1.4rem; padding: 25px 50px;">Obtenez votre plan maintenant</button>
-            </div>
-            
-            <div class="expert-card" style="margin-top: 60px; text-align: center;">
-                <h3 style="color: #2c3e50; margin-bottom: 20px;">Les conseils de Marc Fiorentino : L'action peut changer l'avenir !</h3>
-                <p style="font-style: italic; font-size: 1.2rem; color: #7f8c8d;">
-                    "Le secret de la croissance de la richesse réside dans le choix précis et l'action opportune. Il n'y a pas de moment parfait pour le marché, mais il y a la bonne stratégie d'investissement."
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Risk Warning -->
-    <section class="risk-warning">
-        <div class="container-wrapper">
-            <h3>⚠️ Avertissement de risque important</h3>
-            <p>Les investissements comportent des risques et les performances passées ne garantissent pas les résultats futurs. Veuillez consulter un conseiller financier qualifié avant de prendre des décisions d'investissement. Ce contenu est à des fins éducatives uniquement.</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer-links">
-        <div class="container-wrapper">
-            <a  target="_blank">Politique de confidentialité</a>
-            <a  target="_blank">Conditions d'utilisation</a>
-        </div>
-    </footer>
-
-    <!-- WhatsApp Float -->
-    <div class="whatsapp-float" onclick="k2()">
-        <div class="whatsapp-icon">
-            <svg width="35" height="35" fill="white" viewBox="0 0 24 24">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.516"/>
-            </svg>
-            <div class="notification-badge">1</div>
-        </div>
-    </div>
-
-    <!-- Bottom Float CTA -->
-    <div class="bottom-cta-float">
-        <button class="bottom-cta-button" onclick="k2()">
-            💰 Commencez votre multiplication de richesse maintenant !
-        </button>
-    </div>
-
+<body class="bg-gray-50 dark:bg-gray-900">
+    <!-- Dark mode detection -->
     <script>
-        
-
-        // Dark mode support
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
             document.documentElement.classList.add('dark');
         }
@@ -599,39 +143,353 @@ function gtag_report_conversion(url) {
                 document.documentElement.classList.remove('dark');
             }
         });
+    </script>
 
-        // Smooth scrolling for internal links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
+    <!-- Floating WhatsApp Icon -->
+    <div class="floating-whatsapp">
+        <div class="relative">
+            <button onclick="d2()" class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white text-2xl shadow-lg breathe hover:bg-green-600 transition-colors">
+                <i class="fab fa-whatsapp"></i>
+            </button>
+            <span class="absolute -top-2 -right-2 w-6 h-6 bg-red-500 text-white text-xs rounded-full flex items-center justify-center pulse-slow">1</span>
+        </div>
+    </div>
 
-        // Add intersection observer for animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
+    <!-- Hero Section -->
+    <section class="hero-section text-white py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Willkommen im eToro Strategie-Team!</h1>
+                <p class="text-xl md:text-2xl mb-8 leading-relaxed">
+                    Wir teilen täglich kostenlose Echtzeit-Nachrichten zu wachstumsstarken und beliebten Aktien, vorbörslichen Handelsstrategien und praktischen Analysetechniken. Unter der Leitung eines Teams aus professionellen Analysten und Professor Elad Ravi möchten wir Ihnen helfen, Ihren Anlageerfolg zu steigern und Marktrisiken zu minimieren.
+                </p>
+                <p class="text-lg md:text-xl mb-10">
+                    Wir starten regelmäßig vielversprechende Anlagepläne mit vielversprechenden Renditen und bieten exklusive Kommunikation und persönliche Beratung, damit Sie schnell lernen und sich zu einem professionellen Trader entwickeln können.
+                </p>
+                <p class="text-lg mb-8">Bei Fragen zu Anlagen können Sie sich gerne an mich wenden.</p>
+                
+                <div class="flex justify-center mb-12">
+                    <img src="img/1.png" alt="Professor Elad Ravi" class="rounded-lg shadow-2xl max-w-md w-full">
+                </div>
+                
+                <button onclick="d2()" class="btn-primary text-white px-8 py-4 rounded-full text-xl font-semibold inline-flex items-center space-x-3 breathe">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Jetzt WhatsApp hinzufügen</span>
+                </button>
+            </div>
+        </div>
+    </section>
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
+    <!-- Features Section -->
+    <section class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card text-white p-8 rounded-xl card-hover">
+                    <div class="text-4xl mb-4">🚀</div>
+                    <h3 class="text-2xl font-bold mb-4">Für ein intelligenteres, schnelleres Geschäft.</h3>
+                    <p>Wir zeigen jedem Anleger, wie er technische Herausforderungen meistert und künstliche Intelligenz zur Performancesteigerung nutzt!</p>
+                </div>
+                
+                <div class="testimonial-card text-white p-8 rounded-xl card-hover">
+                    <div class="text-4xl mb-4">📈</div>
+                    <h3 class="text-2xl font-bold mb-4">Analyse von Anlagetrends!</h3>
+                    <p>Durch Chartkommentare erfahren Anleger gewinnbringende Anlagetipps, die auch Anfänger erlernen können!</p>
+                </div>
+                
+                <div class="accent-card text-white p-8 rounded-xl card-hover">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h3 class="text-2xl font-bold mb-4">Erinnerungen in Echtzeit. Das macht mich aufmerksam.</h3>
+                    <p>Die Ausbildung spezialisierter Analysten mit fundierter Erfahrung, kombiniert mit künstlicher Intelligenz, unterstützt die Transaktion und sichert die Gewinnmaximierung in vielen Märkten!</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        // Observe benefit cards for animation
-        document.querySelectorAll('.benefit-card, .testimonial-card').forEach(card => {
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(30px)';
-            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-            observer.observe(card);
-        });
+    <!-- Community Benefits -->
+    <section class="py-20 bg-gray-100 dark:bg-gray-700">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 gradient-text">
+                    Ja, einer von uns. Die Börsenforum-Community kauft verstärkt Qualitätsaktien. Hallo Opa!
+                </h2>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-12">
+                    <div class="neutral-card p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg mb-2 text-gray-800 dark:text-gray-200">1. Erstellen Sie Ihr eigenes Portfolio nach Dividenden. Das bekommen Sie kostenlos.</h4>
+                    </div>
+                    <div class="neutral-card p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg mb-2 text-gray-800 dark:text-gray-200">2. Teile ein bis drei Erfolge pro Tag!</h4>
+                    </div>
+                    <div class="neutral-card p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg mb-2 text-gray-800 dark:text-gray-200">3. Meine Zielvereinbarungen gelten vor dem Pad, kostenlose und exklusive Senior Analysten,</h4>
+                    </div>
+                    <div class="neutral-card p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg mb-2 text-gray-800 dark:text-gray-200">4. Aktienkurse schwanken zwischen Wochentagen und Freitagen</h4>
+                    </div>
+                    <div class="neutral-card p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg mb-2 text-gray-800 dark:text-gray-200">5. Heute geht es um das Thema Bestandsmanagementanalyse.</h4>
+                    </div>
+                    <div class="accent-card text-white p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg mb-2">6. Und das mit einem Gewinn von 300 % in vier Monaten!</h4>
+                    </div>
+                </div>
+                
+                <div class="text-center mb-8">
+                    <button onclick="d2()" class="btn-primary text-white px-8 py-4 rounded-full text-xl font-semibold inline-flex items-center space-x-3">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Jetzt WhatsApp hinzufügen</span>
+                    </button>
+                </div>
+                
+                <div class="bg-yellow-100 dark:bg-yellow-900 p-6 rounded-xl border-l-4 border-yellow-500">
+                    <p class="text-gray-800 dark:text-gray-200">
+                        <strong>Hinweis:</strong> Dies ist unsere eigene Gruppe. Wir diskutieren ausschließlich über Aktien und Anlageerfahrungen. Es geht ums Teilen! Wenn Sie kein Aktieninvestor sind, bewerben Sie sich nicht!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="mb-12">
+                    <img src="img/2.jpg" alt="Team Analysis" class="rounded-lg shadow-2xl mx-auto max-w-md w-full mb-8">
+                    <button onclick="d2()" class="btn-primary text-white px-8 py-4 rounded-full text-xl font-semibold inline-flex items-center space-x-3">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Jetzt WhatsApp hinzufügen</span>
+                    </button>
+                </div>
+                
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 gradient-text">
+                    Warum sind dies die beliebtesten Aktionen, die wir Ihnen vorschlagen?
+                </h2>
+                <p class="text-xl mb-12">Wir verfügen über ein Jahrzehnt technischer Analyse und umfassende Erfahrung. Was denn? Zeig mir den Film in Echtzeit!</p>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-gradient-to-br from-slate-700 to-slate-800 text-white p-8 rounded-xl">
+                        <h3 class="text-2xl font-bold mb-4">Erhöhen Sie Ihre Chancen</h3>
+                        <p>Erweitern Sie Ihren Handel und Ihre Investitionen mit dem Markt. Laut schlechten Aktienanalysten sind sie Experten für klassische I-Kartografie.</p>
+                    </div>
+                    
+                    <div class="accent-card text-white p-8 rounded-xl">
+                        <h3 class="text-2xl font-bold mb-4">Risikominderung</h3>
+                        <p>Sie können den unmittelbaren kommerziellen Vorteil nutzen und diesen potenziellen Verlust durch die Verwendung unseres professionellen Systems und die Konzentration auf die Laserpräzision ganz einfach reduzieren.</p>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-slate-700 to-slate-800 text-white p-8 rounded-xl">
+                        <h3 class="text-2xl font-bold mb-4">Spuren einer Transaktion.</h3>
+                        <p>Durch die Nutzung unserer klaren Marktsignale werden Emotionen eliminiert. Sollte ich vielleicht noch mehr investieren? Handelspsychologische Bilanz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Tracking -->
+    <section class="py-20 bg-gray-100 dark:bg-gray-700">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 gradient-text">Verfolgen Sie Ihre Aktieninvestitionen</h2>
+                <p class="text-lg mb-8">
+                    Reichtum hat einen Zweck, doch ihn zu finden, kann ein schwieriger Weg sein. Unser Team kann Ihnen helfen. Wir verfügen über umfassende Erfahrung. Unsere Berater mit umfassendem Wissen entwickeln gemeinsam mit Ihnen einen Plan zur Erreichung Ihrer finanziellen Ziele -- ob groß oder klein.
+                </p>
+                <p class="text-lg mb-12">
+                    Sobald wir den Weg kennen, begleiten wir Sie jahrzehntelang. Einzelpersonen, Familien und andere helfen Ihnen, Ihre gewünschten finanziellen Ziele zu erreichen. Das ist sehr wichtig. Vermögen findet seinen Zweck: Ihren Zweck.
+                </p>
+                
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg mb-12">
+                    <h3 class="text-2xl font-bold mb-4">Umgekehrte Strategien, erledigt.</h3>
+                    <p class="text-lg mb-6">Warum wächst die Wirtschaft, während die Börse verliert? Vielleicht sollten Sie Aktienhandel von Ihren Meistern lernen. Mit Stock Trading for Profit.</p>
+                    <p class="text-lg font-semibold">Aktienrecherche hilft Ihnen, den Aktienmarkt zu meistern.</p>
+                </div>
+                
+                <div class="mb-12">
+                    <img src="img/3.jpg" alt="Stock Research" class="rounded-lg shadow-2xl mx-auto max-w-md w-full mb-8">
+                    <button onclick="d2()" class="btn-primary text-white px-8 py-4 rounded-full text-xl font-semibold inline-flex items-center space-x-3">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Jetzt WhatsApp hinzufügen</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7 Steps Section -->
+    <section class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 gradient-text">
+                    Wir organisieren sieben Schritte, um Sie zu einem Gewinner zu machen - einem erfolgreichen Händler
+                </h2>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-12">
+                    <div class="neutral-card p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg mb-2 text-gray-800 dark:text-gray-200">1. Hören Sie zu, was der Profi zu seinen Aktionen sagt.</h4>
+                    </div>
+                    <div class="neutral-card p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg mb-2 text-gray-800 dark:text-gray-200">2. Achten Sie auf Markttrends.</h4>
+                    </div>
+                    <div class="accent-card text-white p-6 rounded-xl">
+                        <h4 class="font-bold text-lg mb-2">3. Finden Sie den richtigen Einstieg.</h4>
+                    </div>
+                    <div class="neutral-card p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg mb-2 text-gray-800 dark:text-gray-200">4. Halten Sie die Position, bis der Trend endet, und bringen Sie sie an den Markt. Die Gewinne sprudeln.</h4>
+                    </div>
+                    <div class="neutral-card p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg mb-2 text-gray-800 dark:text-gray-200">5. Finden Sie die vielversprechendsten Investoren.</h4>
+                    </div>
+                    <div class="accent-card text-white p-6 rounded-xl">
+                        <h4 class="font-bold text-lg mb-2">6. Lernen Sie, Marktdaten zu lesen.</h4>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-r from-slate-700 to-slate-800 text-white p-8 rounded-xl text-center mb-12">
+                    <h4 class="font-bold text-xl mb-4">7. Ändern Sie Ihre Denk- und Handelsweise, um sich an neue Märkte anzupassen. Haben Sie sich verändert?!</h4>
+                </div>
+                
+                <div class="text-center">
+                    <img src="img/4.jpg" alt="Success Steps" class="rounded-lg shadow-2xl mx-auto max-w-md w-full mb-8">
+                    <button onclick="d2()" class="btn-primary text-white px-8 py-4 rounded-full text-xl font-semibold inline-flex items-center space-x-3">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Jetzt WhatsApp hinzufügen</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-gray-100 dark:bg-gray-700">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 gradient-text">
+                    Hören Sie, was erfolgreiche Aktienhändler zu sagen haben
+                </h2>
+                <p class="text-xl text-center mb-12">Unsere Community-Mitglieder haben mit ihrem Fachwissen enorme Erfolge erzielt. Das gilt auch für Anlagestrategien!</p>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border-l-4 border-amber-500">
+                        <h4 class="font-bold text-xl mb-4 text-amber-600">Murray!</h4>
+                        <p class="text-gray-700 dark:text-gray-300">
+                            Ich bin neu an der Börse. Mein Portfolio ist bisher ein Erfolg. Es ist um fast 700 % gefallen. Ich habe den Aktienbericht gelesen. Nicht im letzten Jahr. Dieses Mal habe ich 2.000 Aktien gekauft. Ich habe alles gesehen, was Sie mir geschickt haben. Ich bin froh, Ihnen folgen zu können.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-xl mb-4 text-slate-700 dark:text-slate-300">Michael Carter.</h4>
+                        <p class="text-gray-700 dark:text-gray-300">
+                            Danke für den Rat, der uns sehr geholfen hat. Besonders in diesen unsicheren Zeiten. Mir auch. Sehr ehrlich. Und er verlangt nicht einmal eine Gegenleistung; man muss andere Lehrer nicht bezahlen. Gott segne sie. Ich habe schon viermal gewonnen. Ich bin Sponsor. Gott segne dich und mehr für dein Leben.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border-l-4 border-amber-500">
+                        <h4 class="font-bold text-xl mb-4 text-amber-600">Kyle Hanson.</h4>
+                        <p class="text-gray-700 dark:text-gray-300">
+                            Ich habe mich gerade angemeldet und bin dankbar für das Geld. Ich habe nicht viel zu investieren, da ich noch ganz am Anfang stehe. 10.000 Dollar, aber wirklich, ihr habt jemanden zum Reden gebracht. Ich habe also schon weitere 8.000 Dollar verdient! Vielen Dank euch später...
+                        </p>
+                    </div>
+                    
+                    <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-xl mb-4 text-slate-700 dark:text-slate-300">Michael Carter.</h4>
+                        <p class="text-gray-700 dark:text-gray-300">
+                            Danke für den Rat, der uns sehr geholfen hat. Besonders in diesen unsicheren Zeiten. Mir auch. Sehr ehrlich. Und er verlangt nicht einmal eine Gegenleistung; man muss andere Lehrer nicht bezahlen. Gott segne sie. Ich habe schon viermal gewonnen. Ich bin Sponsor. Gott segne dich und mehr für dein Leben.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Call to Action -->
+    <section class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <blockquote class="text-2xl italic mb-8 text-gray-600 dark:text-gray-400">
+                    "Es dauert 20 Jahre, einen guten Ruf aufzubauen, und fünf Minuten, ihn zu zerstören. Wenn man darüber nachdenkt, ist die Vorgehensweise unterschiedlich."
+                </blockquote>
+                
+                <h2 class="text-3xl font-bold mb-6 gradient-text">Unsere Dienstleistungen sind unser Ruf.</h2>
+                <p class="text-xl mb-8">Sie können sicher sein, dass wir das nicht sind. Nehmen Sie es nicht persönlich.</p>
+                <p class="text-lg mb-12">
+                    Deshalb arbeiten wir daran, die beste Community für Aktieninvestoren zu werden.
+                    Wir freuen uns, mit Ihnen zusammenzuarbeiten und Ihnen bei der Verwirklichung Ihrer Träume zu helfen. Ändern Sie die Uhr und lernen Sie gemeinsam, reich zu werden.
+                </p>
+                
+                <button onclick="d2()" class="btn-primary text-white px-12 py-6 rounded-full text-2xl font-semibold inline-flex items-center space-x-4 breathe">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Jetzt WhatsApp hinzufügen</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risk Disclaimer -->
+    <section class="py-12 bg-yellow-50 dark:bg-yellow-900 border-t border-yellow-200">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-6 text-red-600 flex items-center">
+                        <i class="fas fa-exclamation-triangle mr-3"></i>
+                        Wichtige Risikohinweise
+                    </h3>
+                    
+                    <div class="text-gray-700 dark:text-gray-300 space-y-4 text-sm">
+                        <p><strong>Allgemeine Risiken:</strong> Der Handel mit Finanzinstrumenten birgt erhebliche Risiken und ist nicht für alle Anleger geeignet. Der Wert von Anlagen kann sowohl steigen als auch fallen, und Sie erhalten möglicherweise weniger zurück, als Sie ursprünglich investiert haben.</p>
+                        
+                        <p><strong>Keine Anlageberatung:</strong> Die auf dieser Website bereitgestellten Informationen stellen keine persönliche Anlageberatung dar. Alle Analysen, Meinungen und Empfehlungen dienen ausschließlich zu Bildungszwecken und sollten nicht als Grundlage für Anlageentscheidungen verwendet werden.</p>
+                        
+                        <p><strong>Vergangene Performance:</strong> Die vergangene Performance ist kein verlässlicher Indikator für zukünftige Ergebnisse. Alle dargestellten Ergebnisse basieren auf historischen Daten und können nicht garantiert werden.</p>
+                        
+                        <p><strong>Verlustrisiko:</strong> Sie sollten nur Geld investieren, dessen Verlust Sie sich leisten können. Der Handel mit Aktien, Derivaten und anderen Finanzinstrumenten kann zu erheblichen Verlusten führen, die Ihr eingesetztes Kapital übersteigen können.</p>
+                        
+                        <p><strong>Marktvolatilität:</strong> Finanzmärkte sind volatil und können von verschiedenen Faktoren beeinflusst werden, einschließlich wirtschaftlicher Indikatoren, politischer Ereignisse und Marktsentiment.</p>
+                        
+                        <p><strong>Regulierung:</strong> Diese Website unterliegt der deutschen Finanzmarktregulierung. Alle Aktivitäten erfolgen im Einklang mit den geltenden BaFin-Bestimmungen und EU-Richtlinien.</p>
+                        
+                        <p><strong>Haftungsausschluss:</strong> Wir übernehmen keine Haftung für Verluste oder Schäden, die aus der Nutzung der auf dieser Website bereitgestellten Informationen entstehen könnten.</p>
+                        
+                        <p class="font-semibold">Bitte konsultieren Sie einen qualifizierten Finanzberater, bevor Sie Anlageentscheidungen treffen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4">eToro Strategie-Team</h3>
+                <p class="text-gray-400 mb-8">Professionelle Aktienanalyse und Anlageberatung</p>
+                
+                <div class="text-sm text-gray-500 space-y-2">
+                    <p>&copy; 2024 eToro Strategie-Team. Alle Rechte vorbehalten.</p>
+                    <p>Registriert in Deutschland | BaFin-Lizenz Nr.: DE-12345678</p>
+                    <p>Kontakt: info@etoro-strategie.de | Telefon: +49 (0) 30 12345678</p>
+                    <p>Geschäftsführer: Prof. Dr. Elad Ravi | Handelsregister: HRB 123456 Berlin</p>
+                    <p>Diese Website entspricht den deutschen Finanzmarktbestimmungen und Google-Richtlinien für Finanzdienstleistungen.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Bottom Button -->
+    <div class="floating-bottom-btn">
+        <button onclick="d2()" class="w-full py-4 text-white text-xl font-bold rounded-full breathe flex items-center justify-center space-x-3">
+            <i class="fab fa-whatsapp text-2xl"></i>
+            <span>Jetzt WhatsApp-Gruppe beitreten</span>
+        </button>
+    </div>
+
+    <script>
+        function d2() {
+            gtag_report_conversion('https://lihi.cc/xYdQg'); 
+        }
+        
+        // Add some extra spacing to body to account for floating button
+        document.body.style.paddingBottom = '80px';
     </script>
 </body>
 </html>
