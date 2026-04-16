@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium US Part-Time Jobs</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .tabular-nums { font-variant-numeric: tabular-nums; }
+        @keyframes countUp {
+            from { transform: translateY(10px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .count-animate { animation: countUp 0.3s ease-out; }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex items-center justify-center p-4">
+
+    <div class="w-full max-w-md">
+        <div class="bg-white rounded-[2rem] overflow-hidden shadow-2xl border-none">
+            
+            <!-- Banner (已移除 onclick 和 cursor-pointer，防止误触跳转) -->
+            <div class="bg-blue-600 p-10 text-center text-white transition-colors relative group">
+                <div class="flex items-center justify-center gap-2 mb-4">
+                    <i data-lucide="briefcase" class="w-5 h-5 text-blue-200"></i>
+                    <span class="text-xs font-bold uppercase tracking-widest text-blue-100">Exclusive Opportunities</span>
+                </div>
+                <h1 class="text-3xl font-black tracking-tight leading-tight">
+                    Premium US <br>Part-Time Jobs
+                </h1>
+            </div>
+
+            <div class="p-8 space-y-8">
+                <!-- Earnings Badge -->
+                <div class="space-y-6 text-center">
+                    <div class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-emerald-50 text-emerald-700 text-sm font-bold border border-emerald-100">
+                        <i data-lucide="dollar-sign" class="w-4 h-4 mr-1"></i>
+                        Earn $500 - $2,000+ Daily
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-800 leading-tight">
+                        Why is everyone rushing to join these roles?
+                    </h2>
+                </div>
+
+                <!-- Live Counter -->
+                <div class="bg-gray-50 rounded-3xl p-8 border border-gray-100 text-center">
+                    <div class="flex items-center justify-center gap-2 text-gray-500 text-sm font-medium mb-4">
+                        <i data-lucide="users" class="w-4 h-4 text-blue-500"></i>
+                        <span>Americans Already Joined</span>
+                    </div>
+                    
+                    <div id="counter-container" class="relative h-14 flex items-center justify-center overflow-hidden">
+                        <span id="participant-count" class="text-5xl font-black tracking-tighter text-blue-600 tabular-nums">
+                            56,875
+                        </span>
+                    </div>
+                    
+                    <div class="flex items-center justify-center gap-1.5 mt-4">
+                        <div class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Live Enrollment Tracker</span>
+                    </div>
+                </div>
+
+                <!-- Action Button (保留点击跳转) -->
+                <div class="space-y-4">
+                    <button onclick="handleRedirect()" class="w-full h-20 text-xl font-black bg-blue-600 hover:bg-blue-700 text-white rounded-2xl shadow-xl transition-all border-b-4 border-blue-800 active:border-b-0 active:translate-y-1 flex items-center justify-center">
+                        JOIN NOW FOR FREE
+                        <i data-lucide="arrow-right" class="ml-3 w-6 h-6"></i>
+                    </button>
+                    
+                    <div class="flex items-center justify-center gap-2 text-gray-400">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i>
+                        <span class="text-[10px] font-bold uppercase tracking-widest">Verified & Secure Access</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <p class="mt-8 text-center text-[10px] text-gray-400 uppercase tracking-widest font-medium">
+            © 2024 US Recruitment Partners. All rights reserved.
+        </p>
+    </div>
+
+    <script>
+        // --- REDIRECT URL ---
+        const REDIRECT_URL = "https://xdunlink.icu/s/URl6RysXn8";
+
+        const INITIAL_COUNT = 56875;
+        const STORAGE_KEY = "us_job_count_final";
+        const TIMESTAMP_KEY = "us_job_time_final";
+
+        let currentCount = INITIAL_COUNT;
+
+        function initCounter() {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            const last = localStorage.getItem(TIMESTAMP_KEY);
+            const now = Date.now();
+
+            if (saved && last) {
+                const elapsed = Math.floor((now - parseInt(last)) / 1000);
+                currentCount = parseInt(saved) + Math.floor(elapsed * 0.6);
+            }
+            updateDisplay();
+            scheduleNextTick();
+        }
+
+        function updateDisplay() {
+            const el = document.getElementById('participant-count');
+            el.innerText = currentCount.toLocaleString();
+            el.classList.remove('count-animate');
+            void el.offsetWidth;
+            el.classList.add('count-animate');
+        }
+
+        function scheduleNextTick() {
+            const delay = 1000 + Math.random() * 1000;
+            setTimeout(() => {
+                const inc = Math.floor(Math.random() * 3) + 1;
+                currentCount += inc;
+                updateDisplay();
+                localStorage.setItem(STORAGE_KEY, currentCount);
+                localStorage.setItem(TIMESTAMP_KEY, Date.now());
+                scheduleNextTick();
+            }, delay);
+        }
+
+        function handleRedirect() {
+            window.location.href = REDIRECT_URL;
+        }
+
+        lucide.createIcons();
+        initCounter();
+    </script>
+</body>
+</html>
