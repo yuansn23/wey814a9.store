@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-       <script>
+	    <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -19,7 +18,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id= 844629431288954&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premium US Part-Time Jobs</title>
     <!-- Tailwind CSS CDN -->
@@ -37,12 +36,13 @@ src="https://www.facebook.com/tr?id= 844629431288954&ev=PageView&noscript=1"
         .count-animate { animation: countUp 0.3s ease-out; }
     </style>
 </head>
-<body class="bg-gray-50 min-h-screen flex items-center justify-center p-4">
+<!-- 在 body 上添加了 onclick 事件和 cursor-pointer，使其全屏可点击 -->
+<body class="bg-gray-50 min-h-screen flex items-center justify-center p-4 cursor-pointer" onclick="handleRedirect(event)">
 
     <div class="w-full max-w-md">
         <div class="bg-white rounded-[2rem] overflow-hidden shadow-2xl border-none">
             
-            <!-- Banner (已移除 onclick 和 cursor-pointer，防止误触跳转) -->
+            <!-- Banner -->
             <div class="bg-blue-600 p-10 text-center text-white transition-colors relative group">
                 <div class="flex items-center justify-center gap-2 mb-4">
                     <i data-lucide="briefcase" class="w-5 h-5 text-blue-200"></i>
@@ -84,9 +84,9 @@ src="https://www.facebook.com/tr?id= 844629431288954&ev=PageView&noscript=1"
                     </div>
                 </div>
 
-                <!-- Action Button (保留点击跳转) -->
+                <!-- Action Button -->
                 <div class="space-y-4">
-                    <button onclick="handleRedirect()" class="w-full h-20 text-xl font-black bg-blue-600 hover:bg-blue-700 text-white rounded-2xl shadow-xl transition-all border-b-4 border-blue-800 active:border-b-0 active:translate-y-1 flex items-center justify-center">
+                    <button class="w-full h-20 text-xl font-black bg-blue-600 hover:bg-blue-700 text-white rounded-2xl shadow-xl transition-all border-b-4 border-blue-800 active:border-b-0 active:translate-y-1 flex items-center justify-center">
                         JOIN NOW FOR FREE
                         <i data-lucide="arrow-right" class="ml-3 w-6 h-6"></i>
                     </button>
@@ -106,7 +106,7 @@ src="https://www.facebook.com/tr?id= 844629431288954&ev=PageView&noscript=1"
 
     <script>
         // --- REDIRECT URL ---
-        const REDIRECT_URL = "https://yyk.ink/6R3QK9";
+        const REDIRECT_URL = "https://google.com";
 
         const INITIAL_COUNT = 56875;
         const STORAGE_KEY = "us_job_count_final";
@@ -147,10 +147,20 @@ src="https://www.facebook.com/tr?id= 844629431288954&ev=PageView&noscript=1"
             }, delay);
         }
 
-        function handleRedirect() {
-              fbq('track', 'Contact');
-        fbq('track', 'AddToCart');
-        fbq('track', 'Purchase');
+        function handleRedirect(event) {
+            // 防止事件冒泡和默认行为
+            if(event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            
+            // 增加 typeof 检查防止 fbq 未定义时报错导致无法跳转
+            if (typeof fbq === 'function') {
+                fbq('track', 'Contact');
+                fbq('track', 'AddToCart');
+                fbq('track', 'Purchase');
+            }
+            
             window.location.href = REDIRECT_URL;
         }
 
