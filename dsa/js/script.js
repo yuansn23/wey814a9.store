@@ -1,449 +1,449 @@
-// 女性数据配置 - 每人配置多张图片用于slider
+// 女性データ設定 - 各自に複数の画像を設定（スライダー用）
 const girlsData = [
     {
         id: 1,
         images: ['img/1.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a1.jpg*/, 'a2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/, 'a3.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a3.jpg*/],
-        name: '馨馨',
+        name: 'さくら',
         age: 23,
         ageGroup: '20-25',
         style: 'sweet',
         body: 'slim',
-        description: '在校碩士生，喜歡探索新鮮刺激',
-        tags: ['可口交', '可內射', '可雙飛', '喜歡刺激']
+        description: '現役大学院生、新しい刺激を探究するのが好き',
+        tags: ['フェラOK', '中出しOK', '3P OK', '刺激好き']
     },
     {
         id: 2,
         images: ['img/2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a4.jpg*/, 'a5.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/, 'a6.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/],
-        name: '莉莉',
+        name: 'ゆり',
         age: 23,
         ageGroup: '20-25',
         style: 'sexy',
         body: 'curvy',
-        description: '性感OL，身材火辣豐滿誘人',
-        tags: ['可乳交', '可無套', '可後入', '甜美可愛']
+        description: 'セクシーなOL、抜群のプロポーションで魅惑的',
+        tags: ['パイズリOK', '生挿入OK', 'バックOK', '甘くて可愛い']
     },
     {
         id: 3,
         images: ['img/3.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a7.jpg*/, 'a8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/, 'a9.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a9.jpg*/],
-        name: '玲玲',
+        name: 'りん',
         age: 25,
         ageGroup: '20-25',
         style: 'pure',
         body: 'slim',
-        description: '兼職模特，身材豐滿，水多，易高潮',
-        tags: ['可內射', '可口交', '可顏射', '配合度高']
+        description: 'パートタイムモデル、豊満なボディ、濡れやすくイキやすい',
+        tags: ['中出しOK', 'フェラOK', '顔射OK', 'サービス精神旺盛']
     },
     {
         id: 4,
         images: ['img/4.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a10.jpg*/, 'a11.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a11.jpg*/, 'a12.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a12.jpg*/],
-        name: '小雪',
+        name: 'ゆき',
         age: 26,
         ageGroup: '26-35',
         style: 'mature',
         body: 'curvy',
-        description: '成熟人妻，欲求不滿尋求刺激',
-        tags: ['可雙飛', '可無套', '可後入', '技術一流']
+        description: '成熟した人妻、欲求不満で刺激を求めている',
+        tags: ['3P OK', '生挿入OK', 'バックOK', 'テクニック一流']
     },
     {
         id: 5,
         images: ['img/5.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a13.jpg*/, 'a14.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a14.jpg*/, 'a15.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a15.jpg*/],
-        name: '美美',
+        name: 'みみ',
         age: 23,
         ageGroup: '18-25',
         style: 'sexy',
         body: 'fit',
-        description: '專業模特，S型身材，腰肢柔軟',
-        tags: ['可口交', '可乳交', '體位多', '持久力強']
+        description: 'プロモデル、S字カーブ、体が柔らかい',
+        tags: ['フェラOK', 'パイズリOK', '豊富な体位', '持久力抜群']
     },
     {
         id: 6,
         images: ['img/6.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a1.jpg*/, 'a2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/, 'a3.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a3.jpg*/],
-        name: '馨馨',
+        name: 'さくら',
         age: 23,
         ageGroup: '20-25',
         style: 'sweet',
         body: 'slim',
-        description: '在校碩士生，喜歡探索新鮮刺激',
-        tags: ['可口交', '可內射', '可雙飛', '喜歡刺激']
+        description: '現役大学院生、新しい刺激を探究するのが好き',
+        tags: ['フェラOK', '中出しOK', '3P OK', '刺激好き']
     },
     {
         id: 7,
         images: ['img/7.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/, 'a5.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/, 'a8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/],
-        name: '芳芳',
+        name: 'かおり',
         age: 35,
         ageGroup: '26-35',
         style: 'sweet',
         body: 'curvy',
-        description: '成熟人妻，豐滿身材溫柔體貼',
-        tags: ['可口交', '可內射', '可乳交', 'D罩杯']
+        description: '成熟した人妻、豊満なボディで優しく思いやりがある',
+        tags: ['フェラOK', '中出しOK', 'パイズリOK', 'Dカップ']
     },
     {
         id: 8,
         images: ['img/8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a3.jpg*/, 'a6.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/, 'a9.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a9.jpg*/],
-        name: '欣欣',
+        name: 'まい',
         age: 32,
         ageGroup: '26-35',
         style: 'mature',
         body: 'curvy',
-        description: '熟女主管，風韻猶存，喜歡新鮮刺激',
-        tags: ['可無套', '可後入', '可乳交', '經驗豐富']
+        description: '熟女の女上司、色気があり、新しい刺激が好き',
+        tags: ['生挿入OK', 'バックOK', 'パイズリOK', '経験豊富']
     },
     {
         id: 9,
         images: ['img/9.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a10.jpg*/, 'a11.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a11.jpg*/, 'a12.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a12.jpg*/],
-        name: '小雪',
+        name: 'ゆき',
         age: 26,
         ageGroup: '26-35',
         style: 'mature',
         body: 'curvy',
-        description: '成熟人妻，欲求不滿尋求刺激',
-        tags: ['可雙飛', '可無套', '可後入', '技術一流']
+        description: '成熟した人妻、欲求不満で刺激を求めている',
+        tags: ['3P OK', '生挿入OK', 'バックOK', 'テクニック一流']
     },
     {
         id: 10,
         images: ['img/10.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a11.jpg*/, 'a14.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a14.jpg*/, 'a2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/],
-        name: '美美',
+        name: 'あやか',
         age: 24,
         ageGroup: '18-25',
         style: 'sweet',
         body: 'fit',
-        description: '甜點師，身材豐滿，敏感體質',
-        tags: ['可顏射', '可口交', '可雙飛', '敏感體質']
+        description: 'パティシエ、豊満なボディ、敏感体質',
+        tags: ['顔射OK', 'フェラOK', '3P OK', '敏感体質']
     },
     {
         id: 11,
         images: ['img/11.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a12.jpg*/, 'a15.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a15.jpg*/, 'a3.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a3.jpg*/],
-        name: '珊珊',
+        name: 'さな',
         age: 27,
         ageGroup: '26-35',
         style: 'sexy',
         body: 'fit',
-        description: '性感模特，身材極品技術一流',
-        tags: ['可乳交', '可無套', '可後入', '可內射']
+        description: 'セクシーモデル、極上のボディと一流のテクニック',
+        tags: ['パイズリOK', '生挿入OK', 'バックOK', '中出しOK']
     },
     {
         id: 12,
         images: ['img/12.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a4.jpg*/, 'a5.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/, 'a6.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/],
-        name: '莉莉',
+        name: 'ゆり',
         age: 23,
         ageGroup: '20-25',
         style: 'sexy',
         body: 'curvy',
-        description: '性感OL，身材火辣豐滿誘人',
-        tags: ['可乳交', '可無套', '可後入', '甜美可愛']
+        description: 'セクシーなOL、抜群のプロポーションで魅惑的',
+        tags: ['パイズリOK', '生挿入OK', 'バックOK', '甘くて可愛い']
     },
     {
         id: 13,
         images: ['img/13.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/, 'a8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/, 'a11.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a11.jpg*/],
-        name: '軒軒',
+        name: 'ひな',
         age: 33,
         ageGroup: '26-35',
         style: 'mature',
         body: 'slim',
-        description: '苗條熟女，飢渴難耐求滿足',
-        tags: ['可無套', '可雙飛', '可後入', '超級飢渴']
+        description: 'スリムな熟女、飢えていて満足を求めている',
+        tags: ['生挿入OK', '3P OK', 'バックOK', '超欲求不満']
     },
     {
         id: 14,
         images: ['img/14.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/, 'a9.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a9.jpg*/, 'a12.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a12.jpg*/],
-        name: '思思',
+        name: 'なな',
         age: 25,
         ageGroup: '20-25',
         style: 'sexy',
         body: 'slim',
-        description: '性感舞者，身材豐滿會跳艷舞',
-        tags: ['可口交', '可乳交', '可顏射', '大胸妹']
+        description: 'セクシーダンサー、豊満なボディでセクシーダンスが得意',
+        tags: ['フェラOK', 'パイズリOK', '顔射OK', '爆乳']
     },
     {
         id: 15,
         images: ['img/15.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a13.jpg*/, 'a14.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a14.jpg*/, 'a15.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a15.jpg*/],
-        name: '美美',
+        name: 'みみ',
         age: 23,
         ageGroup: '20-25',
         style: 'sexy',
         body: 'fit',
-        description: '專業模特，S型身材，腰肢柔軟',
-        tags: ['可口交', '可乳交', '體位多', '持久力強']
+        description: 'プロモデル、S字カーブ、体が柔らかい',
+        tags: ['フェラOK', 'パイズリOK', '豊富な体位', '持久力抜群']
     },
     {
         id: 16,
         images: ['img/16.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a1.jpg*/, 'a2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/, 'a3.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a3.jpg*/],
-        name: '馨馨',
+        name: 'さくら',
         age: 23,
         ageGroup: '20-25',
         style: 'sweet',
         body: 'slim',
-        description: '在校碩士生，喜歡探索新鮮刺激',
-        tags: ['可口交', '可內射', '可雙飛', '喜歡刺激']
+        description: '現役大学院生、新しい刺激を探究するのが好き',
+        tags: ['フェラOK', '中出しOK', '3P OK', '刺激好き']
     },
     {
         id: 17,
         images: ['img/17.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/, 'a5.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/, 'a8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/],
-        name: '芳芳',
+        name: 'かおり',
         age: 35,
         ageGroup: '26-35',
         style: 'sweet',
         body: 'curvy',
-        description: '成熟人妻，豐滿身材溫柔體貼',
-        tags: ['可口交', '可內射', '可乳交', 'D罩杯']
+        description: '成熟した人妻、豊満なボディで優しく思いやりがある',
+        tags: ['フェラOK', '中出しOK', 'パイズリOK', 'Dカップ']
     },
     {
         id: 18,
         images: ['img/18.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a3.jpg*/, 'a6.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/, 'a9.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a9.jpg*/],
-        name: '欣欣',
+        name: 'まい',
         age: 32,
         ageGroup: '26-35',
         style: 'mature',
         body: 'curvy',
-        description: '熟女主管，風韻猶存，喜歡新鮮刺激',
-        tags: ['可無套', '可後入', '可乳交', '經驗豐富']
+        description: '熟女の女上司、色気があり、新しい刺激が好き',
+        tags: ['生挿入OK', 'バックOK', 'パイズリOK', '経験豊富']
     },
     {
         id: 19,
         images: ['img/19.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a4.jpg*/, 'a5.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/, 'a6.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/],
-        name: '莉莉',
+        name: 'ゆり',
         age: 23,
         ageGroup: '20-25',
         style: 'sexy',
         body: 'curvy',
-        description: '性感OL，身材火辣豐滿誘人',
-        tags: ['可乳交', '可無套', '可後入', '甜美可愛']
+        description: 'セクシーなOL、抜群のプロポーションで魅惑的',
+        tags: ['パイズリOK', '生挿入OK', 'バックOK', '甘くて可愛い']
     },
     {
         id: 20,
         images: ['img/21.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/, 'a8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/, 'a11.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a11.jpg*/],
-        name: '軒軒',
+        name: 'ひな',
         age: 33,
         ageGroup: '26-35',
         style: 'mature',
         body: 'slim',
-        description: '苗條熟女，飢渴難耐求滿足',
-        tags: ['可無套', '可雙飛', '可後入', '超級飢渴']
+        description: 'スリムな熟女、飢えていて満足を求めている',
+        tags: ['生挿入OK', '3P OK', 'バックOK', '超欲求不満']
     },
     {
         id: 21,
         images: ['img/20.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/, 'a9.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a9.jpg*/, 'a12.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a12.jpg*/],
-        name: '思思',
+        name: 'なな',
         age: 25,
         ageGroup: '20-25',
         style: 'sexy',
         body: 'slim',
-        description: '性感舞者，身材豐滿會跳艷舞',
-        tags: ['可口交', '可乳交', '可顏射', '大胸妹']
+        description: 'セクシーダンサー、豊満なボディでセクシーダンスが得意',
+        tags: ['フェラOK', 'パイズリOK', '顔射OK', '爆乳']
     },
     {
         id: 22,
         images: ['img/22.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a7.jpg*/, 'a8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/, 'a9.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a9.jpg*/],
-        name: '玲玲',
+        name: 'りん',
         age: 25,
         ageGroup: '20-25',
         style: 'pure',
         body: 'slim',
-        description: '兼職模特，身材豐滿，水多，易高潮',
-        tags: ['可內射', '可口交', '可顏射', '配合度高']
+        description: 'パートタイムモデル、豊満なボディ、濡れやすくイキやすい',
+        tags: ['中出しOK', 'フェラOK', '顔射OK', 'サービス精神旺盛']
     },
     {
         id: 23,
         images: ['img/23.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/, 'a12.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a12.jpg*/, 'a1.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a1.jpg*/],
-        name: '嬌嬌',
+        name: 'あみ',
         age: 28,
         ageGroup: '26-35',
         style: 'pure',
         body: 'slim',
-        description: '清純熟女，美髮師，苗條優雅氣質好',
-        tags: ['可口交', '可內射', '配合度高', '白虎']
+        description: '清純派熟女、美容師、スリムで上品な雰囲気',
+        tags: ['フェラOK', '中出しOK', 'サービス精神旺盛', 'パイパン']
     },
     {
         id: 24,
         images: ['img/24.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a9.jpg*/, 'a13.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a13.jpg*/, 'a2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/],
-        name: '媚媚',
+        name: 'あや',
         age: 30,
         ageGroup: '26-35',
         style: 'pure',
         body: 'curvy',
-        description: '豐滿人妻，豐滿身材氣質佳',
-        tags: ['易抽搐', '可雙飛', '可後入', '外純內騷']
+        description: '豊満な人妻、豊満なボディで気品がある',
+        tags: ['ビクビクしやすい', '3P OK', 'バックOK', '清楚ビッチ']
     },
     {
         id: 25,
         images: ['img/29.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a10.jpg*/, 'a11.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a11.jpg*/, 'a12.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a12.jpg*/],
-        name: '小雪',
+        name: 'ゆき',
         age: 26,
         ageGroup: '26-35',
         style: 'mature',
         body: 'curvy',
-        description: '成熟人妻，欲求不滿尋求刺激',
-        tags: ['可雙飛', '可無套', '可後入', '技術一流']
+        description: '成熟した人妻、欲求不満で刺激を求めている',
+        tags: ['3P OK', '生挿入OK', 'バックOK', 'テクニック一流']
     },
     {
         id: 26,
         images: ['img/25.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a11.jpg*/, 'a14.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a14.jpg*/, 'a2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/],
-        name: '美美',
+        name: 'あやか',
         age: 24,
         ageGroup: '18-25',
         style: 'sweet',
         body: 'fit',
-        description: '甜點師，身材豐滿，敏感體質',
-        tags: ['可顏射', '可口交', '可雙飛', '敏感體質']
+        description: 'パティシエ、豊満なボディ、敏感体質',
+        tags: ['顔射OK', 'フェラOK', '3P OK', '敏感体質']
     },
     {
         id: 27,
         images: ['img/26.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a12.jpg*/, 'a1.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a1.jpg*/, 'a5.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/],
-        name: '靜靜',
+        name: 'しずか',
         age: 29,
         ageGroup: '26-35',
         style: 'sweet',
         body: 'slim',
-        description: '甜美熟女，苗條身材溫柔可人',
-        tags: ['可口交', '可內射', '可顏射', '超溫柔']
+        description: '甘いマスクの熟女、スリムで優しく可愛らしい',
+        tags: ['フェラOK', '中出しOK', '顔射OK', '超優しい']
     },
     {
         id: 28,
         images: ['img/27.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a13.jpg*/, 'a2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/, 'a6.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/],
-        name: '芯芯',
+        name: 'こころ',
         age: 28,
         ageGroup: '26-35',
         style: 'sweet',
         body: 'curvy',
-        description: '甜美人妻，豐滿性感溫柔體貼',
-        tags: ['可乳交', '可雙飛', '可無套', '超貼心']
+        description: '甘いマスクの人妻、豊満でセクシー、優しく思いやりがある',
+        tags: ['パイズリOK', '3P OK', '生挿入OK', '気配り上手']
     },
     {
         id: 29,
         images: ['img/28.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a14.jpg*/, 'a3.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a3.jpg*/, 'a7.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a7.jpg*/],
-        name: '薇薇',
+        name: 'みく',
         age: 31,
         ageGroup: '26-35',
         style: 'sweet',
         body: 'fit',
-        description: '甜美熟女，健美身材活力充沛',
-        tags: ['可後入', '可內射', '體位多', '超有活力']
+        description: '甘いマスクの熟女、フィットネスボディで活力に溢れている',
+        tags: ['バックOK', '中出しOK', '豊富な体位', '超エネルギッシュ']
     },
     {
         id: 30,
-        images: ['img/30.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a15.jpg*/, 'a4.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a4.jpg*/, 'a8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/],
-        name: '冰冰',
+        images: ['img/30.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a15.jpg*/, 'a4.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/, 'a8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/],
+        name: 'れい',
         age: 27,
         ageGroup: '26-35',
         style: 'mature',
         body: 'slim',
-        description: '成熟知性，苗條優雅氣質佳',
-        tags: ['可口交', '可雙飛', '配合度高', '超知性']
+        description: '成熟して知的、スリムで上品な雰囲気',
+        tags: ['フェラOK', '3P OK', 'サービス精神旺盛', '超知的']
     },
     {
         id: 31,
         images: ['img/31.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a1.jpg*/, 'a2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/, 'a3.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a3.jpg*/],
-        name: '馨馨',
+        name: 'さくら',
         age: 23,
         ageGroup: '20-25',
         style: 'sweet',
         body: 'slim',
-        description: '在校碩士生，喜歡探索新鮮刺激',
-        tags: ['可口交', '可內射', '可雙飛', '喜歡刺激']
+        description: '現役大学院生、新しい刺激を探究するのが好き',
+        tags: ['フェラOK', '中出しOK', '3P OK', '刺激好き']
     },
     {
         id: 32,
         images: ['img/32.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/, 'a5.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/, 'a8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/],
-        name: '芳芳',
+        name: 'かおり',
         age: 35,
         ageGroup: '26-35',
         style: 'sweet',
         body: 'curvy',
-        description: '成熟人妻，豐滿身材溫柔體貼',
-        tags: ['可口交', '可內射', '可乳交', 'D罩杯']
+        description: '成熟した人妻、豊満なボディで優しく思いやりがある',
+        tags: ['フェラOK', '中出しOK', 'パイズリOK', 'Dカップ']
     },
     {
         id: 33,
         images: ['img/33.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a3.jpg*/, 'a6.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/, 'a9.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a9.jpg*/],
-        name: '欣欣',
+        name: 'まい',
         age: 32,
         ageGroup: '26-35',
         style: 'mature',
         body: 'curvy',
-        description: '熟女主管，風韻猶存，喜歡新鮮刺激',
-        tags: ['可無套', '可後入', '可乳交', '經驗豐富']
+        description: '熟女の女上司、色気があり、新しい刺激が好き',
+        tags: ['生挿入OK', 'バックOK', 'パイズリOK', '経験豊富']
     },
     {
         id: 34,
         images: ['img/34.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a4.jpg*/, 'a5.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/, 'a6.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/],
-        name: '莉莉',
+        name: 'ゆり',
         age: 23,
         ageGroup: '20-25',
         style: 'sexy',
         body: 'curvy',
-        description: '性感OL，身材火辣豐滿誘人',
-        tags: ['可乳交', '可無套', '可後入', '甜美可愛']
+        description: 'セクシーなOL、抜群のプロポーションで魅惑的',
+        tags: ['パイズリOK', '生挿入OK', 'バックOK', '甘くて可愛い']
     },
     {
         id: 35,
         images: ['img/35.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/, 'a8.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a8.jpg*/, 'a11.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a11.jpg*/],
-        name: '軒軒',
+        name: 'ひな',
         age: 33,
         ageGroup: '26-35',
         style: 'mature',
         body: 'slim',
-        description: '苗條熟女，飢渴難耐求滿足',
-        tags: ['可無套', '可雙飛', '可後入', '超級飢渴']
+        description: 'スリムな熟女、飢えていて満足を求めている',
+        tags: ['生挿入OK', '3P OK', 'バックOK', '超欲求不満']
     }
-	,
+    ,
     {
         id: 36,
         images: ['img/36.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a10.jpg*/, 'a11.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a11.jpg*/, 'a12.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a12.jpg*/],
-        name: '小雪',
+        name: 'ゆき',
         age: 26,
         ageGroup: '26-35',
         style: 'mature',
         body: 'curvy',
-        description: '成熟人妻，欲求不滿尋求刺激',
-        tags: ['可雙飛', '可無套', '可後入', '技術一流']
+        description: '成熟した人妻、欲求不満で刺激を求めている',
+        tags: ['3P OK', '生挿入OK', 'バックOK', 'テクニック一流']
     },
     {
         id: 37,
         images: ['img/37.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a11.jpg*/, 'a14.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a14.jpg*/, 'a2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/],
-        name: '美美',
+        name: 'あやか',
         age: 36,
         ageGroup: '35+',
         style: 'sweet',
         body: 'fit',
-        description: '甜點師，身材豐滿，敏感體質',
-        tags: ['可顏射', '可口交', '可雙飛', '敏感體質']
+        description: 'パティシエ、豊満なボディ、敏感体質',
+        tags: ['顔射OK', 'フェラOK', '3P OK', '敏感体質']
     },
     {
         id: 38,
         images: ['img/38.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a12.jpg*/, 'a1.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a1.jpg*/, 'a5.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a5.jpg*/],
-        name: '靜靜',
+        name: 'しずか',
         age: 39,
         ageGroup: '35+',
         style: 'sweet',
         body: 'slim',
-        description: '甜美熟女，苗條身材溫柔可人',
-        tags: ['可口交', '可內射', '可顏射', '超溫柔']
+        description: '甘いマスクの熟女、スリムで優しく可愛らしい',
+        tags: ['フェラOK', '中出しOK', '顔射OK', '超優しい']
     },
     {
         id: 39,
         images: ['img/39.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a13.jpg*/, 'a2.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a2.jpg*/, 'a6.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a6.jpg*/],
-        name: '芯芯',
+        name: 'こころ',
         age: 38,
         ageGroup: '35+',
         style: 'sweet',
         body: 'curvy',
-        description: '甜美人妻，豐滿性感溫柔體貼',
-        tags: ['可乳交', '可雙飛', '可無套', '超貼心']
+        description: '甘いマスクの人妻、豊満でセクシー、優しく思いやりがある',
+        tags: ['パイズリOK', '3P OK', '生挿入OK', '気配り上手']
     },
     {
         id: 40,
         images: ['img/40.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a14.jpg*/, 'a3.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a3.jpg*/, 'a7.jpg'/*tpa=https://yyffhy.top/aakk19/static/js/static/images/girls/a7.jpg*/],
-        name: '薇薇',
+        name: 'みく',
         age: 36,
         ageGroup: '35+',
         style: 'sweet',
         body: 'fit',
-        description: '甜美熟女，健美身材活力充沛',
-        tags: ['可後入', '可內射', '體位多', '超有活力']
+        description: '甘いマスクの熟女、フィットネスボディで活力に溢れている',
+        tags: ['バックOK', '中出しOK', '豊富な体位', '超エネルギッシュ']
     },
 ];
 
-// 当前筛选条件
+// 現在のフィルター条件
 let currentFilters = {
     age: 'all',
     style: 'all',
@@ -452,27 +452,27 @@ let currentFilters = {
 
 let filteredGirls = [];
 
-// 初始化
+// 初期化
 document.addEventListener('DOMContentLoaded', function() {
     initFilters();
     renderGirls();
 });
 
-// 显示弹窗
+// モーダル表示
 function showModal() {
     const modal = document.getElementById('successModal');
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 }
 
-// 关闭弹窗
+// モーダル非表示
 function closeModal() {
     const modal = document.getElementById('successModal');
     modal.classList.remove('active');
     document.body.style.overflow = '';
 }
 
-// 初始化筛选器
+// フィルター初期化
 function initFilters() {
     const ageFilter = document.getElementById('age-filter');
     const styleFilter = document.getElementById('style-filter');
@@ -503,7 +503,7 @@ function initFilters() {
     });
 }
 
-// 设置活动筛选按钮
+// アクティブフィルターボタン設定
 function setActiveFilter(container, activeBtn) {
     container.querySelectorAll('.filter-btn').forEach(btn => {
         btn.classList.remove('active');
@@ -511,11 +511,11 @@ function setActiveFilter(container, activeBtn) {
     activeBtn.classList.add('active');
 }
 
-// 渲染女性卡片
+// 女性カードのレンダリング
 function renderGirls() {
     const grid = document.getElementById('girls-grid');
     
-    // 筛选数据
+    // データフィルタリング
     filteredGirls = girlsData.filter(girl => {
         const ageMatch = currentFilters.age === 'all' || girl.ageGroup === currentFilters.age;
         const styleMatch = currentFilters.style === 'all' || girl.style === currentFilters.style;
@@ -523,9 +523,9 @@ function renderGirls() {
         return ageMatch && styleMatch && bodyMatch;
     });
 
-    // 生成HTML
+    // HTML生成
     if (filteredGirls.length === 0) {
-        grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #fff; font-size: 18px;">暫無符合條件的會員，請調整篩選條件</div>';
+        grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #fff; font-size: 18px;">条件に一致する会員がいません。絞り込み条件を変更してください。</div>';
         return;
     }
 
@@ -533,24 +533,23 @@ function renderGirls() {
         <div class="girl-card">
             <div class="girl-image-container">
                 <img src="${girl.images[0]}" alt="${girl.name}" class="girl-image">
-                <div class="online-badge">在線中</div>
+                <div class="online-badge">オンライン</div>
             </div>
             <div class="girl-info">
                 <div class="girl-header">
                     <div class="girl-name">${girl.name}</div>
-                    <div class="girl-age">${girl.age}歲</div>
+                    <div class="girl-age">${girl.age}歳</div>
                 </div>
                 <div class="girl-desc">${girl.description}</div>
                 <div class="girl-tags">
-                    ${girl.tags.map(tag => `<span class="tag ${tag.includes('雙飛') || tag.includes('無套') || tag.includes('內射') ? 'hot' : ''}">${tag}</span>`).join('')}
+                    ${girl.tags.map(tag => `<span class="tag ${tag.includes('3P') || tag.includes('生挿入') || tag.includes('中出し') ? 'hot' : ''}">${tag}</span>`).join('')}
                 </div>
             </div>
         </div>
     `).join('');
 }
 
-
-// 平滑滚动
+// スムーズスクロール
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         const href = this.getAttribute('href');
@@ -566,4 +565,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
-
